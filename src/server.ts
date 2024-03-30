@@ -10,7 +10,7 @@ const port : number = 5000;
 async function bootstrap() {
   try {
     await mongoose.connect(
-      "mongodb+srv://note-forever-users:mwwFupEpCx4RW7gm@note-forever.pzzgzwr.mongodb.net/?retryWrites=true&w=majority&appName=note-forever"
+      "mongodb+srv://sheltonTool:QahqYIycdvGupmXb@cluster0.qffvse5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     );
 
     app.listen(port, () => {

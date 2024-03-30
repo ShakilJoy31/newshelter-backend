@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req: Request, res: Response) => {
-    res.send("Hello world. This server is dedicated for the note-forever app making with react native.");
+    res.send("This is newsshelter backend app,  rurnning successfully!");
 });
 
 app.use('/api/v1/', router);
